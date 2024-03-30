@@ -1,0 +1,19 @@
+{
+  "name": "dataviz-project-skylens",
+  "version": "1.0.0",
+  "description": "cse 578 project SkyLens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhipk/dataviz-project-skylens.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhipk/dataviz-project-skylens/issues"
+  },
+  "homepage": "https://github.com/adhipk/dataviz-project-skylens#readme"
+}

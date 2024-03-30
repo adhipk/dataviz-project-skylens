@@ -1,0 +1,33 @@
+.chart-container {
+    display: grid;
+    grid-template-areas:
+        "projection-view comparision-view attribute-table"
+        "tabular-view tabular-view tabular-view";
+    grid-template-rows: 1fr 1fr;
+    /*
+      Assuming you want the columns to equally divide the space. If you have specific sizes
+      for columns, you would need to add the grid-template-columns property as well.
+    */
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+.projection-view {
+    grid-area: projection-view;
+}
+
+.comparision-view {
+    grid-area: comparision-view;
+}
+
+.attribute-table {
+    grid-area: attribute-table;
+}
+
+.tabular-view {
+    grid-area: tabular-view;
+}
+
+.test-box {
+    height: 300px;
+    border: 1px solid red;
+}

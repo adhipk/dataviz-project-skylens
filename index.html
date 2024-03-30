@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Homework #1: D3 Simple - CSE 578 - Spring 2024</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">CSE 578 Project SkyLens</h1>
+        <div class="option">
+            <label for="datasets">Dataset:</label>
+
+            <select name="dataset" id="dataset" onchange="selectDataset(event)">
+                <option value="NBA Stats">NBA Stats</option>
+                <option value="IPL Stats">IPL Stats</option>
+                <option value="test_1">Test 1</option>
+                <option value="test_2">Test 2</option>
+            </select>
+        </div>
+        <div class="chart-container">
+            <div class="projection-view">
+                <h4>Projection View</h4>
+                <div class="test-box">graph goes here</div>
+            </div>
+            <div class="comparision-view">
+                <h4>ComparisionView</h4>
+                <div class="test-box">graph goes here</div>
+            </div>
+            <div class="attribute-table">
+                <h4>Attribute Table</h4>
+                <div class="test-box">table goes here</div>
+            </div>
+
+            <div class="tabular-view">
+                <h4>Tabular View</h4>
+                <div class="test-box">graph goes here</div>
+            </div>
+        </div>
+
+</body>
+
+</html>
