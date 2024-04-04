@@ -13,21 +13,25 @@
 
 .projection-view {
     grid-area: projection-view;
+    margin: 5px;
 }
 
 .comparision-view {
     grid-area: comparision-view;
+    margin: 5px;
 }
 
 .attribute-table {
     grid-area: attribute-table;
+    margin: 5px;
 }
 
 .tabular-view {
     grid-area: tabular-view;
+    margin: 5px;
 }
 
 .test-box {
-    height: 300px;
+    height: 500px;
     border: 1px solid red;
 }
